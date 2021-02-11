@@ -1,16 +1,16 @@
+@tailwind base;
+@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Slab:wght@700&family=Roboto:wght@700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.number {
+  font-size: 40em;
+  transform: rotate(15deg) translateY(-40px);
+  line-height: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
+@tailwind utilities;
