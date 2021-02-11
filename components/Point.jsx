@@ -57,8 +57,8 @@ function Point(props) {
             className={`${bg} min-h-screen flex justify-center items-center relative overflow-hidden`}    
         >
             <div className="w-5/6 lg:w-4/6 h-full py-10 my-10 flex justify-center items-center relative flex-col">
-                <h1 className={`${text} font-title text-3xl lg:text-4xl text-center mb-8`}>{props.title}</h1>
-                <p className={`${text70}`}>{props.children}</p>
+                <h1 className={`${text} font-title text-3xl lg:text-4xl 2xl:text-6xl text-center mb-8`}>{props.title}</h1>
+                <p className={`${text70} text-xl lg:text-2xl 2xl:text-3xl`}>{props.children}</p>
                 <span className={`number ${text15} absolute font-slab left-0`}>{props.number}</span>
             </div>
         </section>
