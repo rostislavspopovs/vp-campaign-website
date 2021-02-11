@@ -14,7 +14,7 @@ export default function Home() {
       {__data.map((p, i) => {
         return (
           <Point
-            background={"bg-" + p.background}
+            background={p.background}
             text={p.text}
             title={p.title}
             number={i + 1}
