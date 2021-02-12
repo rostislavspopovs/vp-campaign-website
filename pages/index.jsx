@@ -6,6 +6,30 @@ import __data from '../data_tmp/index'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>Ross Popovs for VP Welfare & Education</title>
+        <meta name="description" content="Hi! My name is Ross, although SUSU does require that I use my full name for the election.. so actually I’m Rostislavs." />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#09111d" />
+        <meta name="msapplication-TileColor" content="#09111d" />
+        <meta name="theme-color" content="#09111d" />
+
+        <meta property="og:title" content="Ross Popovs for VP Welfare & Community" />
+        <meta property="og:url" content="https://rosspopovs.com" />
+        <meta property="og:description" content="Hi! My name is Ross, although SUSU does require that I use my full name for the election.. so actually I’m Rostislavs." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://i.imgur.com/ChohZOH.png" />
+        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://rosspopovs.com" />
+        <meta property="twitter:title" content="Ross Popovs for VP Welfare & Community" />
+        <meta property="twitter:description" content="Hi! My name is Ross, although SUSU does require that I use my full name for the election.. so actually I’m Rostislavs." />
+        <meta property="twitter:image" content="https://i.imgur.com/ChohZOH.png" />
+    </Head>
     <main>
       <section id="home" className="min-h-screen bg-white flex flex-col items-center justify-center relative">
         <svg className="w-full absolute top-0 left-0" viewBox="0 0 1921 312" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,5 +107,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   )
 }
