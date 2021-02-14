@@ -50,7 +50,7 @@ export default function Home() {
             <path d="M1920 248.5L1856 215.419C1792 181.716 1664 116.484 1536 140.869C1408 166.184 1280 281.116 1152 331.282C1024 380.516 896 364.984 768 331.281C640 298.2 512 248.5 384 198.8C256 149.1 128 99.3999 64 74.5499L1.71889e-05 49.6999L1.99187e-05 -5.3541e-05L64 -4.46355e-05C128 -3.573e-05 256 -1.79191e-05 384 -1.08172e-07C512 1.77028e-05 640 3.55137e-05 768 5.33246e-05C896 7.11356e-05 1024 8.89465e-05 1152 0.000106757C1280 0.000124568 1408 0.000142379 1536 0.00016019C1664 0.000178001 1792 0.000195812 1856 0.000204718L1920 0.000213623L1920 248.5Z" fill="white" />
           </svg>
 
-          <div id="about" className="w-5/6 lg:w-4/6 h-full py-10 my-10 grid grid-cols-12 gap-8">
+          <div id="about" className="w-5/6 lg:w-4/6 h-full py-10 my-10 grid grid-cols-12">
             <div className="flex flex-col justify-center col-span-12 lg:col-span-7">
               <h1 className="font-title text-white text-3xl pb-4">{__data.about.title}</h1>
               {__data.about.body.map((p, i) => (
@@ -89,10 +89,19 @@ export default function Home() {
             <path d="M0 198.7L64 215.887C128 232.431 256 267.769 384 275.8C512 283.831 640 267.769 768 224.4C896 181.031 1024 113.569 1152 78.7131C1280 44.5 1408 44.5 1536 78.7131C1664 113.569 1792 181.031 1856 215.887L1920 250.1V0H1856C1792 0 1664 0 1536 0C1408 0 1280 0 1152 0C1024 0 896 0 768 0C640 0 512 0 384 0C256 0 128 0 64 0H0V198.7Z" fill="#2A66FF" />
           </svg>
           <div className="w-5/6 lg:w-4/6 h-full flex flex-col items-center justify-center relative py-10 my-10">
-            <h1 className="font-title text-white text-3xl lg:text-4xl 2xl:text-6xl pb-4">{__data.contact.title}</h1>
-
+            <h1 className="font-title text-white text-3xl lg:text-4xl 2xl:text-6xl pb-12">{__data.contact.title}</h1>
+            <div className="grid grid-cols-2 w-full">
+              <div className="col-span-2 lg:col-span-1 flex items-center flex-col px-4 pb-12">
+                <h2 className="text-white text-2xl lg:text-3xl 2xl:text-5xl pb-4">Vote!</h2>
+                <p className="text-white70 text-lg lg:text-xl 2xl:text-2xl">{__data.contact.vote_text}</p>
+              </div>
+              <div className="col-span-2 lg:col-span-1 flex items-center flex-col px-4 pb-12">
+                <h2 className="text-white text-2xl lg:text-3xl 2xl:text-5xl pb-4">Get in touch!</h2>
+                <p className="text-white70 text-lg lg:text-xl 2xl:text-2xl">I'd love to hear from you - the best way to contact me is through my University email: <a href="mailto:rp1g20@soton.ac.uk" className="text-white underline">rp1g20@soton.ac.uk</a></p>
+              </div>
+            </div>
           </div>
-          <div className="w-full text-white flex justify-center items-center py-4 text-xs" style={{ background: '#050C16' }}>
+          <div className="w-full text-white flex justify-center items-center py-4" style={{ background: '#050C16' }}>
             Built with 💜 by &nbsp;
           <Link href="https://tommitchelmore.com"><a target="_blank" rel="noopener" className="underline">Thomas Mitchelmore</a></Link>&nbsp;
           <Link href="https://github.com/rostislavspopovs/vp-campaign-website"><a target="_blank" rel="noopener" className="hover:underline">(Source)</a></Link>

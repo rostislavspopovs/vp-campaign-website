@@ -9,7 +9,8 @@ export default {
         ]
     },
     contact: {
-        "title": "Get involved!"
+        "title": "Get involved!",
+        "vote_text": "The SUSU voting period is from _ to _ - (some more text here)",
     },
     points: [
         {
