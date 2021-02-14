@@ -10,7 +10,7 @@ export default {
     },
     contact: {
         "title": "Get involved!",
-        "vote_text": "The SUSU voting period is from _ to _ - (some more text here)",
+        "vote_text": "The SUSU voting period is from Monday 15th February til the 3rd March. You get to choose who represents you within the union. Whoever you decide to vote for, its a big deal.",
     },
     points: [
         {
