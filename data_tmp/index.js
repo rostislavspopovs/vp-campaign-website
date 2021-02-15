@@ -17,7 +17,7 @@ export default {
             "title": "Address the communication divide between the students, the union, and the university with earnest representation and understanding.",
             "body": "Heart-to-heart representation realigning what the students say and what SUSU implement. Resources will be allocated towards services and developments which directly enhance student wellbeing and inclusion - services which the students would have asked for themselves. I will work to conciliate the dynamic between SUSU and the university, bolstering the idea that both bodies should be working together.",
             "background": "red",
-            "text": "white"
+            "text": "black"
         },
         {
             "title": "Challenge and develop effectiveness of enabling services FOR student welfare, for everyone.",
