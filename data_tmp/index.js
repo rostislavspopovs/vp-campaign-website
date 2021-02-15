@@ -10,14 +10,14 @@ export default {
     },
     contact: {
         "title": "Get involved!",
-        "vote_text": "The SUSU voting period is from Monday 15th February til the 3rd March. You get to choose who represents you within the union. Whoever you decide to vote for, its a big deal.",
+        "vote_text": "The SUSU voting period is from Monday 15th February until the 3rd March. You get to choose who represents you within the union - so go with your gut ;)",
     },
     points: [
         {
             "title": "Address the communication divide between the students, the union, and the university with earnest representation and understanding.",
             "body": "Heart-to-heart representation realigning what the students say and what SUSU implement. Resources will be allocated towards services and developments which directly enhance student wellbeing and inclusion - services which the students would have asked for themselves. I will work to conciliate the dynamic between SUSU and the university, bolstering the idea that both bodies should be working together.",
             "background": "red",
-            "text": "black"
+            "text": "white"
         },
         {
             "title": "Challenge and develop effectiveness of enabling services FOR student welfare, for everyone.",
